@@ -1,4 +1,4 @@
-# IU Cupboard Website Project
+# IU Crimson Cupboard Project
 
 ## Introduction
 The IU Cupboard Website is a graduation project developed by Indiana University students to support the IU Cupboard initiative. IU Cupboard provides essential food assistance to students facing food insecurity. Despite its pivotal role, there has been a lack of an online system to facilitate its operations. This project aims to bridge this gap by developing a comprehensive database system that allows students to book appointments and view real-time inventory of available food items, enhancing accessibility and operational efficiency.
