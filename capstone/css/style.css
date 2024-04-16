@@ -1,0 +1,322 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+/*#f4f4f4 memo for the background color*/
+header {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 140px; 
+    padding: 0px;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    font-family: Garamond, serif;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+    border-bottom: 2px solid #ccc;
+}
+
+#header-image {
+    width: 100px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+h1{
+    color: #000000;
+}
+
+nav {
+    position: fixed;
+    top: 140px;
+    width: 100%;
+    background-image: url('../images/back.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 999;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    opacity: 0.7; 
+}
+
+body {
+    padding-top: 180px; 
+}
+
+
+section {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+.intro {
+    text-align: center;
+    margin-top: 180px; 
+    background-color: #dbdbdb;
+    font-family: Garamond, serif;
+    line-height: 1.5;
+}
+
+/*body {
+    background: url('../images/back.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+*/ 
+  .container {
+    width: 80%; 
+    max-width: 500px;
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #dbdbdb; 
+    border-color: black;
+    border-radius: 10px;
+}
+
+footer {
+    background-image: url('../images/had...jpg');
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 7px 7px 7px 7px;
+  }
+
+  footer {
+    width: 300px; 
+    margin: 20px auto; 
+    padding: 10px; 
+    background-image: url('../images/had...jpg')
+  }
+
+  .what {
+    text-align: center;
+    font-family: Garamond, serif;
+    line-height: 1.5;
+}
+
+.ourwork {
+    text-align: center;
+    font-family: Garamond, serif;
+    line-height: 1.5;
+}
+
+.poster {
+    max-width: 350px;
+    max-height: 350px;
+    display: block;
+    margin: auto;
+    border-radius: 5%;
+  }
+
+.jtpic{
+    max-width: 350px;
+    max-height: 350px;
+    display: block;
+    margin: auto;
+    border-radius: 5%;
+}
+
+.jt{
+    width: 80%; 
+    max-width: 500px;
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #dbdbdb; 
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 250px;
+    font-family: Garamond, serif;
+}
+
+.core{
+    text-align: center;
+}
+
+.jtjt{
+    text-align: center;
+}
+.NMpic{
+    max-width: 350px;
+    max-height: 350px;
+    display: block;
+    margin: auto;
+    border-radius: 5%;
+}
+.CMpic{
+    max-width: 350px;
+    max-height: 350px;
+    display: block;
+    margin: auto;
+    border-radius: 5%;
+}
+
+.pro{
+    margin-top: 230px;
+    text-align: center;
+    background-color: #dbdbdb;
+    line-height: 1.5;
+    font-family: Garamond, serif;
+}
+
+.pro2{
+    text-align: center;
+    line-height: 1.5;
+}
+
+.procon{
+    width: 80%; 
+    max-width: 500px;
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #dbdbdb; 
+    border-color: black;
+    border-radius: 10px;
+    font-family: Garamond, serif;
+    margin-top: 35px;
+}
+
+.uuu{
+    border-radius: 10px;
+    max-width: 500px;
+    max-height: 350px;
+    margin-top: 10px;
+}
+
+.vid{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+.vi{
+    width: 100%; 
+    max-width: 500px;
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #dbdbdb; 
+    border-color: black;
+    border-radius: 10px;
+    font-family: Garamond, serif;
+    margin-top: 250px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Styling*/
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    max-width: 500px; 
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Style slider */
+input[type=range] {
+    -webkit-appearance: none; /* Override default CSS styles */
+    appearance: none;
+    width: 100%; 
+    height: 15px; 
+    background: #d3d3d3; 
+    outline: none; 
+    opacity: 0.7;
+}
+
+/* Customizable Thumb */
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; 
+    height: 25px; 
+    background: #deab93; 
+    cursor: pointer; 
+    border-radius: 50%; 
+    border: 1px solid #000000; 
+}
